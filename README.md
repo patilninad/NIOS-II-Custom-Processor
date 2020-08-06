@@ -1,4 +1,4 @@
-# Intel Quartus Prime Development Suite:-    
+# > Intel Quartus Prime Development Suite:-    
 Intel's proprietary software to design for Intel FPGA's, System on Chip (SoCs), Complex Programmable Gate Arrays (CPLDs) from design entry and synthesis to timing analysis,optimization, verification and simulation. Various components of Quartus Prime are:  
 1) ModelSim - For simulating the design.  
 2) TimeQuest timing analyser - For analysing timing violations of the design and achieving timing closures.  
@@ -17,7 +17,7 @@ Intel's proprietary software to design for Intel FPGA's, System on Chip (SoCs), 
 ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Multiplier.PNG)   
 Intel Altera's MAX 10 FPGA Development Board family was the target device.      
 An 8x8 multiplier was designed. The result was stored in a 32x16 bit synchronous RAM. 8x8 multiplier and 32x16 bit RAM was designed using Verilog HDL and converting the source code to a block diagram using quartus prime tools.
-# NIOS II Custom Processor Design using Qsys System Design Tool:-    
+# > NIOS II Custom Processor Design using Qsys System Design Tool:-    
 The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families. A Nios II processor system consists of a Nios II processor core, a set of on-chip peripherals, on-chip memory, and interfaces to off-chip memory, all implemented on a single Intel FPGA device. 
   # Features:-  
   1) Full 32-bit address space, data path and instruction set.  
