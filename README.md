@@ -14,5 +14,6 @@ FPGA Design Flow:-
 7) Programming  
 8) Test and Integration  
 # Pipelined Multiplier:-   
+Intel Altera's MAX 10 FPGA Development Board family was the target device.
 ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Multiplier.PNG)
 # NIOS II Custom Processor Design using Qsys System Design Tool:-  
