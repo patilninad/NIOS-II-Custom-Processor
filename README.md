@@ -25,10 +25,11 @@ The main components are Multiply and Accumulate (MAC) block and RAM block.
   # Technology Map Viewer (Post-Fitting):-  
 ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Technology%20Map%20Viewer%20(Post-Fitting).PNG)
 # > NIOS II Custom Processor Design using Qsys System Design Tool:-    
-The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families. A Nios II processor system consists of a Nios II processor core, a set of on-chip peripherals, on-chip memory, and interfaces to off-chip memory, all implemented on a single Intel FPGA device. 
+The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families. A Nios II processor system consists of a Nios II processor core, a set of on-chip peripherals, on-chip memory, and interfaces to off-chip memory, all implemented on a single Intel FPGA device.   
   # Features:-  
   1) Full 32-bit address space, data path and instruction set.  
   2) 32-bit general-purpose registers.   
-  # Block Diagram:-  
-  ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/NIOS%20II%20Processor%20System.PNG)
-  
+  # NIOS II Processor System:-  
+  ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/NIOS%20II%20Processor%20System.PNG)  
+  # NIOS II Processor Core Block Diagram:-
+  ![]()
