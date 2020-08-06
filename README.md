@@ -20,7 +20,8 @@ Intel's proprietary software to design for Intel FPGA's, System on Chip (SoCs), 
 Intel Altera's MAX 10 FPGA Development Board family was the target device.      
 An 8x8 multiplier was designed. The result was stored in a 32x16 bit synchronous RAM. 8x8 multiplier and 32x16 bit RAM was designed using Verilog HDL and converting the source code to a block diagram using quartus prime tools.  
   # RTL Viewer:-
-![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/RTL%20Viewer.PNG)
+![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/RTL%20Viewer.PNG)  
+The main components are Multiply and Accumulate (MAC) block and RAM block.
 # > NIOS II Custom Processor Design using Qsys System Design Tool:-    
 The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families. A Nios II processor system consists of a Nios II processor core, a set of on-chip peripherals, on-chip memory, and interfaces to off-chip memory, all implemented on a single Intel FPGA device. 
   # Features:-  
