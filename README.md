@@ -13,5 +13,6 @@ FPGA Design Flow:-
 6) Simulation  
 7) Programming  
 8) Test and Integration  
-# Pipelined Multiplier:-  
+# Pipelined Multiplier:-   
+![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Multiplier.PNG)
 # NIOS II Custom Processor Design using Qsys System Design Tool:-  
