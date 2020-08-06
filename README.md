@@ -16,5 +16,5 @@ Intel's proprietary software to design for Intel FPGA's, System on Chip (SoCs), 
   # Pipelined Multiplier:-     
 ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Multiplier.PNG)   
 Intel Altera's MAX 10 FPGA Development Board family was the target device.      
-An 8*8 multiplier was designed. The result was stored in a 32*16 bit synchronous RAM.
+An 8x8 multiplier was designed. The result was stored in a 32x16 bit synchronous RAM.
 # NIOS II Custom Processor Design using Qsys System Design Tool:-  
