@@ -4,7 +4,7 @@ Intel's proprietary software to design for Intel FPGA's, System on Chip (SoCs), 
 2) TimeQuest timing analyser - For analysing timing violations of the design and achieving timing closures.  
 3) Qsys - For system design.   
 4) PowerPlay Power Analyser Tool - For analysing and achieving power requirements of the design.  
-FPGA Design Flow:-  
+   # FPGA Design Flow:-  
 1) Design Entry: Schematic Capture, HDL, Importing IP blocks, State Machine Entry, Importing EDIF files.  
 2) Functional Simulation  
 3) Synthesis/Mapping   
