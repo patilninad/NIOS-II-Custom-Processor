@@ -17,4 +17,5 @@ Intel's proprietary software to design for Intel FPGA's, System on Chip (SoCs), 
 ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Multiplier.PNG)   
 Intel Altera's MAX 10 FPGA Development Board family was the target device.      
 An 8x8 multiplier was designed. The result was stored in a 32x16 bit synchronous RAM.
-# NIOS II Custom Processor Design using Qsys System Design Tool:-  
+# NIOS II Custom Processor Design using Qsys System Design Tool:-    
+The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families.   
