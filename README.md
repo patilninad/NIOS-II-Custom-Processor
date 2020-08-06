@@ -2,7 +2,8 @@
 Intel's proprietary software to design for Intel FPGA's, System on Chip (SoCs), Complex Programmable Gate Arrays (CPLDs) from design entry and synthesis to timing analysis,optimization, verification and simulation. Various components of Quartus Prime are:  
 1) ModelSim - For simulating the design.  
 2) TimeQuest timing analyser - For analysing timing violations of the design and achieving timing closures.  
-3) Qsys - For system design.   
+3) Qsys - For system design.  
+4) Chip Planner -   
 4) PowerPlay Power Analyser Tool - For analysing and achieving power requirements of the design.  
   # FPGA Design Flow:-  
 1) Design Entry: Schematic Capture, HDL, Importing IP blocks, State Machine Entry, Importing EDIF files.  
@@ -13,10 +14,13 @@ Intel's proprietary software to design for Intel FPGA's, System on Chip (SoCs), 
 6) Simulation  
 7) Programming  
 8) Test and Integration  
-  # Pipelined Multiplier:-     
+  # Pipelined Multiplier:-  
+  # Schematic Diagram:-  
 ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Multiplier.PNG)   
 Intel Altera's MAX 10 FPGA Development Board family was the target device.      
-An 8x8 multiplier was designed. The result was stored in a 32x16 bit synchronous RAM. 8x8 multiplier and 32x16 bit RAM was designed using Verilog HDL and converting the source code to a block diagram using quartus prime tools.
+An 8x8 multiplier was designed. The result was stored in a 32x16 bit synchronous RAM. 8x8 multiplier and 32x16 bit RAM was designed using Verilog HDL and converting the source code to a block diagram using quartus prime tools.  
+  # RTL Viewer:-
+![]()
 # > NIOS II Custom Processor Design using Qsys System Design Tool:-    
 The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families. A Nios II processor system consists of a Nios II processor core, a set of on-chip peripherals, on-chip memory, and interfaces to off-chip memory, all implemented on a single Intel FPGA device. 
   # Features:-  
