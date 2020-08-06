@@ -32,4 +32,4 @@ The NIOS II embedded processor family is Altera's second-generation soft embedde
   # NIOS II Processor System:-  
   ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/NIOS%20II%20Processor%20System.PNG)  
   # NIOS II Processor Core Block Diagram:-
-  ![]()
+  ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/NIOS%20II%20Processor%20Core%20Block%20Diagram.PNG)
