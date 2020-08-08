@@ -23,7 +23,7 @@
 ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/RTL%20viewer.PNG)  
    The main components are Multiply and Accumulate (MAC) block and RAM block.  
    # Technology Map Viewer (Post-Fitting):-  
-![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Technology%20Map%20Viewer%20(Post-Fitting).PNG)
+  The block diagram was quite large to be fit into the snapshot.  
    # TimeQuest Timing Analyser:-  
    Performed timing closure for the pipelines multiplier by constraining all paths in the design and running the timing      analyser tool. Timing closure can be achieved by overcoming setup and hold time violation. Timing violation can lead to various errors such as:-    1) Hazards   2) Metastability  3) Race condition  4) Clock Skew  
    # ModelSim:-  
