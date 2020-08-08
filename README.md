@@ -28,7 +28,9 @@
    Performed timing closure for the pipelines multiplier by constraining all paths in the design and running the timing      analyser tool. Timing closure can be achieved by overcoming setup and hold time violation. Timing violation can lead to various errors such as:-    1) Hazards   2) Metastability  3) Race condition  4) Clock Skew  
    # ModelSim:-  
    ModelSim is a simulator from Mentor Graphics. The multiplier design was simulated by feeding various input test patterns. Following is the snapshot of the simulation window. 
-   ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/MentorGraphics.PNG)
+   ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/MentorGraphics.PNG)  
+   # Pin Assignment:-  
+   ![]()
 # > NIOS II Custom Processor Design using Qsys System Design Tool:-    
 The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families. A Nios II processor system consists of a Nios II processor core, a set of on-chip peripherals, on-chip memory, and interfaces to off-chip memory, all implemented on a single Intel FPGA device.   
   # Features:-  
