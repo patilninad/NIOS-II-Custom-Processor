@@ -1,3 +1,12 @@
+# > NIOS II Custom Processor Design using Qsys System Design Tool:-    
+The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families. A Nios II processor system consists of a Nios II processor core, a set of on-chip peripherals, on-chip memory, and interfaces to off-chip memory, all implemented on a single Intel FPGA device.   
+  # Features:-  
+  1) Full 32-bit address space, data path and instruction set.  
+  2) 32-bit general-purpose registers.   
+  # NIOS II Processor System:-  
+  ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/NIOS%20II%20Processor%20System.PNG)  
+  # NIOS II Processor Core Block Diagram:-
+  ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/NIOS%20II%20Processor%20Core%20Block%20Diagram.PNG)  
 # > Intel Quartus Prime Development Suite:-    
   Intel's proprietary software to design for Intel FPGA's, System on Chip (SoCs), Complex Programmable Gate Arrays      (CPLDs) from design entry and synthesis to timing analysis,optimization, verification and simulation. Various components  of Quartus Prime are:  
   1) ModelSim - For simulating the design.  
@@ -33,12 +42,3 @@
    ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Pin%20Assignments.PNG)  
    There are different I/O standards. Such as single-ended and differential.  
    Single-ended I/O are faster but have poor noise immunity. Differential I/O are faster as well as have better noise immunity. But differential I/O consume twice the amount of pins then single-ended. Different input and output signals of the ALU were attached to different I/O banks of the FPGA. Here single-ended I/O +3.3V LVCMOS was used as default I/O standard.    
-# > NIOS II Custom Processor Design using Qsys System Design Tool:-    
-The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families. A Nios II processor system consists of a Nios II processor core, a set of on-chip peripherals, on-chip memory, and interfaces to off-chip memory, all implemented on a single Intel FPGA device.   
-  # Features:-  
-  1) Full 32-bit address space, data path and instruction set.  
-  2) 32-bit general-purpose registers.   
-  # NIOS II Processor System:-  
-  ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/NIOS%20II%20Processor%20System.PNG)  
-  # NIOS II Processor Core Block Diagram:-
-  ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/NIOS%20II%20Processor%20Core%20Block%20Diagram.PNG)
