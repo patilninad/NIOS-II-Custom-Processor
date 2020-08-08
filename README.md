@@ -20,7 +20,7 @@
    Intel Altera's MAX 10 FPGA Development Board family was the target device.      
    An 8x8 multiplier was designed. The result was stored in a 32x16 bit synchronous RAM. 8x8 multiplier and 32x16 bit RAM    was designed using Verilog HDL and converting the source code to a block diagram using quartus prime tools.  
    # RTL Viewer:-
-![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/RTL%20Viewer.PNG)  
+![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/RTL%20viewer.PNG)  
    The main components are Multiply and Accumulate (MAC) block and RAM block.  
    # Technology Map Viewer (Post-Fitting):-  
 ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Technology%20Map%20Viewer%20(Post-Fitting).PNG)
