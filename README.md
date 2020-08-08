@@ -30,7 +30,9 @@
    ModelSim is a simulator from Mentor Graphics. The multiplier design was simulated by feeding various input test patterns. Following is the snapshot of the simulation window. 
    ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/MentorGraphics.PNG)  
    # Pin Assignment:-  
-   ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Pin%20Assignments.PNG)
+   ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Pin%20Assignments.PNG)  
+   There are different I/O standards. Such as single-ended and differential.  
+   Single-ended I/O are faster but have poor noise immunity. Differential I/O are faster as well as have better noise immunity. But differential I/O consume twice the amount of pins then single-ended. Different input and output signals of the ALU were attached to different I/O banks of the FPGA. Here single-ended I/O +3.3V LVCMOS was used as default I/O standard.    
 # > NIOS II Custom Processor Design using Qsys System Design Tool:-    
 The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families. A Nios II processor system consists of a Nios II processor core, a set of on-chip peripherals, on-chip memory, and interfaces to off-chip memory, all implemented on a single Intel FPGA device.   
   # Features:-  
