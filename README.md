@@ -14,7 +14,7 @@
   6) Simulation  
   7) Programming  
   8) Test and Integration  
-  # > Pipelined Multiplier:-  
+  # > Arthmetic Logic Unit (ALU):-  
    # Schematic Diagram:-  
 ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Multiplier.PNG)   
    Intel Altera's MAX 10 FPGA Development Board family was the target device.      
