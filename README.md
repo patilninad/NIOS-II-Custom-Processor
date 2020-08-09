@@ -3,9 +3,9 @@ The NIOS II embedded processor family is Altera's second-generation soft embedde
   # Features:-  
   1) Full 32-bit address space, data path and instruction set.  
   2) 32-bit general-purpose registers.   
-  # NIOS II Processor System:-  
+  # NIOS-II Processor System:-  
   ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/NIOS%20II%20Processor%20System.PNG)  
-  # NIOS II Processor Core Block Diagram:-
+  # NIOS-II Processor Core Block Diagram:-
   ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/NIOS%20II%20Processor%20Core%20Block%20Diagram.PNG)  
 # > Intel Quartus Prime Development Suite:-    
   Intel's proprietary software to design for Intel FPGA's, System on Chip (SoCs), Complex Programmable Gate Arrays      (CPLDs) from design entry and synthesis to timing analysis,optimization, verification and simulation. Various components  of Quartus Prime are:  
