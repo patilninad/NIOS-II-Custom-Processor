@@ -1,4 +1,4 @@
-# > NIOS II Custom Soft-Core Processor Design Using Qsys System Design Tool:-    
+# > NIOS II Custom Soft-Core Processor  Using Intel's Qsys System Design Tool:-    
 The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families. A Nios II processor system consists of a Nios II processor core, a set of on-chip peripherals, on-chip memory, and interfaces to off-chip memory, all implemented on a single Intel FPGA device.   
   # Features:-  
   1) Full 32-bit address space, data path and instruction set.  
