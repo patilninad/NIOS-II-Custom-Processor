@@ -43,7 +43,7 @@ The NIOS II embedded processor family is Altera's second-generation soft embedde
    There are different I/O standards. Such as single-ended and differential.  
    Single-ended I/O are faster but have poor noise immunity. Differential I/O are faster as well as have better noise immunity. But differential I/O consume twice the amount of pins then single-ended. Different input and output signals of the ALU were attached to different I/O banks of the FPGA. Here single-ended I/O +3.3V LVCMOS was used as default I/O standard.     
    # Intel(Altera) FPGA's configuration modes:-  
-   1) JTAG - Uses USB-Blaster II cable to transfer the configuration data into the device config memory. This data is loaded onto the device on startup. Two types of ways in JTAG mode to configure the device:-  
+   1) JTAG - Uses USB-Blaster II cable to transfer the configuration data into the device config memory. This data is loaded onto the device on startup. Four types of ways in JTAG mode to configure the device:-  
    a) .sof(SRAM object file) - Transfers data directly onto the internal SRAM block.  
    b) .pof(programmable object file) - Transfers data onto the internal SRAM block via internal FLASH memory.   
    c) .jam/.jbc - ASCII file used by processors and test equipments to program devices via JTAG.  
