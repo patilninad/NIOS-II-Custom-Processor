@@ -1,4 +1,4 @@
-# > NIOS II Custom Processor Design using Qsys System Design Tool:-    
+# > NIOS II Custom Soft-Core Processor Design Using Qsys System Design Tool:-    
 The NIOS II embedded processor family is Altera's second-generation soft embedded processor solution. The NIOS II are 32-bit RISC processors that share a common instruction set architecture and are optimized for use in all of Altera's mainstream FPGA families. A Nios II processor system consists of a Nios II processor core, a set of on-chip peripherals, on-chip memory, and interfaces to off-chip memory, all implemented on a single Intel FPGA device.   
   # Features:-  
   1) Full 32-bit address space, data path and instruction set.  
@@ -41,4 +41,12 @@ The NIOS II embedded processor family is Altera's second-generation soft embedde
    # Pin Assignment:-  
    ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Pin%20Assignments.PNG)  
    There are different I/O standards. Such as single-ended and differential.  
-   Single-ended I/O are faster but have poor noise immunity. Differential I/O are faster as well as have better noise immunity. But differential I/O consume twice the amount of pins then single-ended. Different input and output signals of the ALU were attached to different I/O banks of the FPGA. Here single-ended I/O +3.3V LVCMOS was used as default I/O standard.    
+   Single-ended I/O are faster but have poor noise immunity. Differential I/O are faster as well as have better noise immunity. But differential I/O consume twice the amount of pins then single-ended. Different input and output signals of the ALU were attached to different I/O banks of the FPGA. Here single-ended I/O +3.3V LVCMOS was used as default I/O standard.     
+   # Intel(Altera) FPGA's configuration modes:-  
+   1) JTAG - Uses USB-Blaster II cable to transfer the configuration data into the device config memory. This data is loaded onto the device on startup. Two types of ways in JTAG mode to configure the device:-  
+   a) .sof(SRAM object file) - Transfers data directly onto the internal SRAM block.  
+   b) .pof(programmable object file) - Transfers data onto the internal SRAM block via internal FLASH memory.   
+   c) .jam/.jbc - ASCII file used by processors and test equipments to program devices via JTAG.  
+   d) .jic(JTAG indirect configuration file) - is used to program EPCS(Altera serial configuration) devices.  
+   2) Active Serial - A serial FLASH memory device stores the configuration image. The image is loaded onto the device on startup via serial interface.  
+   4) Fast Passive Parallel - Uses a CPLD or a micro-processor to transfer the device configuration data from memory to FPGA device upon startup.  
