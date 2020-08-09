@@ -32,12 +32,16 @@ The NIOS II embedded processor family is Altera's second-generation soft embedde
 ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/RTL%20viewer.PNG)  
    The main components are Multiply and Accumulate (MAC) block and RAM block.  
    # Technology Map Viewer (Post-Fitting):-  
-  The block diagram was quite large to be fit into the snapshot.  
-   # TimeQuest Timing Analyser:-  
-   Performed timing closure for the pipelines multiplier by constraining all paths in the design and running the timing      analyser tool. Timing closure can be achieved by overcoming setup and hold time violation. Timing violation can lead to various errors such as:-    1) Hazards   2) Metastability  3) Race condition  4) Clock Skew  
-   # ModelSim:-  
+  The block diagram was quite large to be fit into the snapshot.   
+  # ModelSim:-  
    ModelSim is a simulator from Mentor Graphics. The multiplier design was simulated by feeding various input test patterns. Following is the snapshot of the simulation window. 
    ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/MentorGraphics.PNG)  
+   # TimeQuest Timing Analyser:-  
+   Performed timing closure for the pipelines multiplier by constraining all paths in the design and running the timing      analyser tool. Timing closure can be achieved by overcoming setup and hold time violation. Timing violation can lead to various errors such as:-    
+   1) Hazards   
+   2) Metastability     
+   3) Race condition    
+   4) Clock Skew     
    # Pin Assignment:-  
    ![](https://github.com/patilninad/NIOS-II-Custom-Processor/blob/master/Pin%20Assignments.PNG)  
    There are different I/O standards. Such as single-ended and differential.  
